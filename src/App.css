@@ -24,6 +24,37 @@
   color: white;
 }
 
+.one{
+  border-radius: 10px;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 5px 10px;
+}
+#contact{
+  background-color: red;
+}
+#downlode{
+  background-color: orange;
+}
+#help{
+  background-color: yellowgreen;
+}
+#home{
+  background-color: violet;
+}
+#joinus{
+  background-color: tan;
+}
+#login{
+  background-color: brown;
+}
+#search{
+  background-color: silver;
+}
+#setting{
+  background-color: salmon;
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Contact from './compo/Contact';
+import Downlode from './compo/Downlode';
+import Help from './compo/Help';
+import Joinus from './compo/Joinus';
+import Login from './compo/Login';
+import Search from './compo/Search';
+import Setting from './compo/Setting';
+import Home from './compo/Home';
+import Mobile from './component/Mobile';
+import Mobile2 from './component/Mobile2';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Mobile/>
+      <Mobile2/>
+      <Contact/>
+      <Downlode/>
+      <Help/>
+      <Home/>
+      <Joinus/>
+      <Login/>
+      <Search/>
+      <Setting/>
     </div>
   );
 }
