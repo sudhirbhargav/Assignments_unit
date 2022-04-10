@@ -1,12 +1,5 @@
 import React, { useState } from 'react'
 
-if(count%2==0){
-    <style>
-        h1{
-            colour
-        }
-    </style>
-}
 
 export default function Textform() {
     const [count,setCount] = useState(0)
